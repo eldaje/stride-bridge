@@ -1,0 +1,13 @@
+{
+  "name": "stride-bridge",
+  "version": "1.0.0",
+  "description": "A personal, read-only Strava MCP connector with OAuth 2.1 and PKCE for ChatGPT.",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test test/server.test.mjs"
+  },
+  "license": "MIT"
+}
